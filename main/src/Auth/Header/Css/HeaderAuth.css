@@ -1,0 +1,58 @@
+.Link{
+    all: unset;
+}
+
+.img{
+    height: 33px;
+    width: 114px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header{
+
+    margin-top: 2%;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 540px;
+    height: 33px;
+
+    display: flex;
+    justify-content: center;
+  
+}
+
+.Text1
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    letter-spacing: 0.7px;
+    font-size: 20px;
+
+}
+
+.BtnWithLine{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.BtnWithoutLine{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+}
+

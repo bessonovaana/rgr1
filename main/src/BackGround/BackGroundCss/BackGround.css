@@ -1,0 +1,8 @@
+body{
+    background-image: url('../../images/BackGround.png');
+    background-size: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+.FormRegistration
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+    width: 540px;
+    height: 545px;
+
+    background-color: white;
+
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    border-radius: 15px;
+}
+
+input
+{
+    width: 100%;
+    height: 10%;
+
+    background-color:rgba(231, 235, 245, 1);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    box-shadow: none; 
+
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+
+   /* background-image: url('C:\Users\Jake\Desktop\IT\main\src\images\star.png');*/
+    background-repeat: no-repeat;
+    
+    background-position: right 10px center;
+    
+}
+
+input:focus{
+    background-image: none;
+}
+
+.Authorization{
+
+    margin-left: 95px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.OtherData
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.email{
+    margin-bottom: 15px;
+}
+
+.EmailInput{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.Text
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    display: block;
+
+}
+
+.UserData{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.button{
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.button:active{
+    transform: scale(0.98); 
+}
+
+.Star{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); 
+    pointer-events: none;
+}
+
+.PS{
+    font-size: 21;
+    color:rgba(153, 153, 153, 1);
+    position: relative;
+    display: block;
+}
+
+.ErrorText
+{
+    position: absolute;
+    font-size: 12px;
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 5px;
+    padding: 0;
+    margin: 0;
+
+}
+
+p{
+    margin-top: 2px;
+}
+
+.userExists{
+    bottom: 55px;
+}
+
+.registration{
+    display: flex;
+    justify-content: center;
+}

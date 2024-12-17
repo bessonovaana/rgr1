@@ -1,0 +1,139 @@
+.player-wrapper {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .react-player {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+.Main{
+  background-color: transparent;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.left-col{
+  flex: 7;
+}
+
+.right-col{
+  flex:3;
+  overflow: scroll;
+  height: 588px;
+
+}
+
+
+/* Скрыть полосу прокрутки */
+.right-col::-webkit-scrollbar {
+  display: none;
+}
+
+.videoList{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.videoCard{
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.Preview{
+  flex:4;
+}
+
+
+.Text{
+  padding-left: 10px;
+  flex:6
+}
+
+input{
+  height: 30px;
+  width: 98%;
+  margin: 5px;
+  background-image: none;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.left{
+  flex: 2;
+}
+
+.right{
+  flex: 8;
+}
+
+.username{
+  float: right;
+}
+
+.CommnetInput{
+  position: relative;
+  padding-bottom: 23px;
+}
+
+button.SendComment{
+  background-color: white;
+  border: none;
+  position: absolute;
+  right: 8px;
+  top: 40px;
+  bottom:0;
+  border-radius: 15px;
+}
+
+button.Card{
+  all: unset;  
+}
+
+.comment-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #121111;
+}
+
+.comment-card__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.comment-card__content {
+  flex: 1;
+}
+
+.comment-card__username {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0;
+  color: #ccc;
+}
+
+.comment-card__text {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.username{
+  padding-top: 13px;
+  padding-right: 5px;
+  color: #ccc;
+}
